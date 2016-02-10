@@ -1,5 +1,5 @@
 # The deployment section should be excluded until
-# it is explicitly included in module 5 done again again
+# it is explicitly included in module 5 done again again and again
 
 deployment:
   dockerhub:
