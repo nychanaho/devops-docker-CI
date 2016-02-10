@@ -5,8 +5,6 @@ deployment:
   dockerhub:
     branch: master
     commands:
-#      - curl -H "Content-Type:application/json" --data '{"build":true}' -X POST $DOCKER_HUB_URL
-#      - curl --header "Content-Type:application/json"  --data '{"build":true}' --request POST $DOCKER_HUB_URL
       - $DOCKER_HUB_TRIGGER
 
 test:
