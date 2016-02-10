@@ -8,8 +8,7 @@ deployment:
       - curl \
   --header "Content-Type: application/json" \
   --data '{"build": true}' \
-  --request POST \
-    $DOCKER_HUB_URL
+  --request POST $DOCKER_HUB_URL
 
 test:
   override:    
